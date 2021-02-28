@@ -12,7 +12,7 @@ class SingleSwitchParser extends DeviceParser {
         }
     }
 }
-SingleSwitchParser.modelName = ['ctrl_neutral1'];
+SingleSwitchParser.modelName = ['ctrl_neutral1', 'switch.b1lacn02'];
 module.exports = SingleSwitchParser;
 
 class SingleSwitchSwitchParser extends AccessoryParser {
